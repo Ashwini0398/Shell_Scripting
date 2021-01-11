@@ -1,5 +1,7 @@
 #! /bin/bash -x
 
+#display the sum of harmonic series 1/1+1/2+1/3+..........
+
 read -p " Enter the number n:" n
 
 for(( i=1;i<=n;i++ ))
