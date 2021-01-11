@@ -1,5 +1,8 @@
 #!/bin/bash -x
 
+#rang 1-100 repeated numbers like 33 77,11 etc 
+
+
 read -p "Enter Range1 " num1
 read -p "Enter Range2 " num2
 index=-1
