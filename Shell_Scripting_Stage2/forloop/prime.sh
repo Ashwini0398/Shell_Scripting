@@ -1,8 +1,10 @@
 #! /bin/bash -x
 
-read -p " enter the lower range : " 
 
-	for (( i=2;i<=$j/2;i++ ))
+
+read -p " enter the number : " n 
+
+	for (( i=2;i<=$n/2;i++ ))
 	do
 	ans=$(( $n%$i ))
 	if [ $ans -eq 0 ]
