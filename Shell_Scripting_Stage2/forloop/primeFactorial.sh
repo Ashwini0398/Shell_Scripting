@@ -1,5 +1,9 @@
 #!/bin/bash -x
 
+
+#show that ths number is a prime factor
+
+
 read -p "Enter Number " n
 
 for (( i = 2; $n != 1;  ))
