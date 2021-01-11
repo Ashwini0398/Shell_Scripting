@@ -1,5 +1,8 @@
 #!/bin/bash 
 
+#get the degree conversion of C-F or F-C
+
+
 function Conversion()
 {
 	case $choice in
