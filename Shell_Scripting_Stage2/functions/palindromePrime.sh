@@ -1,5 +1,10 @@
 #! /bin/bash -x
 
+#show that he number is palindrom and also prime
+
+
+
+
 function palindrome()
 {
 val1=$input
