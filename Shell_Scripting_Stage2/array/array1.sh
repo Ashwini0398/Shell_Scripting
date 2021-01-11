@@ -1,5 +1,9 @@
 #! /bin/bash -x
 
+
+#second smallest and largest number in an array
+
+
 for(( i=0; i < 10; i++ ))
 do
 	num[i]=$(( RANDOM%(900) + 100))
