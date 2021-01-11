@@ -1,4 +1,8 @@
-#!/bin/bas---h -x
+#!/bin/bash -x
+
+#Gambler 
+
+
 
 function Limit_Check()
 {
