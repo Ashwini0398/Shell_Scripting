@@ -1,5 +1,8 @@
 #! /bin/bash -x
 
+#show the factoial of an number
+
+
 read -p "enter the number " n
 
 fact=1
