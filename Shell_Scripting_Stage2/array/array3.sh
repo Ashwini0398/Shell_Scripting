@@ -1,5 +1,8 @@
 #!/bin/bash -x
 
+#prime factorizaton using array
+
+
 read -p "Enter Number " n
 index=-1
 for (( i = 2; $n != 1;  ))
