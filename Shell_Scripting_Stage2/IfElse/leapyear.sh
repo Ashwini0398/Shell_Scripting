@@ -1,5 +1,7 @@
-#! /bin/bash 
-set -x
+#! /bin/bash -x 
+
+
+#leap year or not
 
 read -p " enter year (YYYY) :" y
 
