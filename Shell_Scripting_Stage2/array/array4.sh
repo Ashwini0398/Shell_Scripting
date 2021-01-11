@@ -1,5 +1,10 @@
 #! /bin/bash -x
 
+
+
+#sum of three integer is zero
+
+
 arr=(0 -1 2 -3 1)
 
 for(( i=0;i<${#arr[@]};i++ ))
