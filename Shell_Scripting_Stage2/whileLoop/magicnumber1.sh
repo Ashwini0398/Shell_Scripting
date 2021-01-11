@@ -1,5 +1,9 @@
 #!/bin/bash -x
 
+
+#show the magic number
+
+
 lock1=1
 lock2=100
 lock3=$lock2
