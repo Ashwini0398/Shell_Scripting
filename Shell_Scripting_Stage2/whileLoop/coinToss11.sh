@@ -1,5 +1,8 @@
 #! /bin/bash -x
 
+#coin toss  problem to show either head or tail win 11 times
+
+
 head=0
 tail=0
 
