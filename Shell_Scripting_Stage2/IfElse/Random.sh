@@ -1,6 +1,6 @@
 #! /bin/bash -x
 
-#define variable
+#5 random  3 digit number show the min and max of the number
 
 a=$(( RANDOM%899+100 )) 
 b=$(( RANDOM%899+100 )) 
