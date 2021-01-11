@@ -3,14 +3,14 @@
 
 
 echo -e "Please chosse  the \n 1.Head \n 2.Tail "
+head=1
+tail=0
 
-read choice
-coinToss=$((RANDOM%2+1))
+coinToss=$((RANDOM%2))
 
-if [ $choice -eq $coinToss ]
+if [[ $coinToss == 1 ]]
 then
-	echo " Congress you won "
+	echo "head"
 else
-	echo " Sorry you fail "
+	echo "tail"
 fi
-echo " coin toss $coinToss ,choice : $choice"
